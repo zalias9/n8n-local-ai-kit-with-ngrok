@@ -30,12 +30,11 @@ cd n8n-local-ai-kit-with-ngrok
 ### Update .env and ngrok.yml [**Important**]
 
 1. Copy `.env.sample` to `.env` and update the values
-2. Update ngrok domain to ngrok.yml
-3. Go to [ngrok.com](https://ngrok.com/) and create an account.
-4. Create a custom domain, every account gets 1 free domain.
-5. Replace `your-domain.ngrok-free.app` with your domain in `ngrok.yml` (no https://)
-6. Replace `https://your-domain.ngrok-free.app` with your domain in `.env` (with https://)
-7. Copy your ngrok token and paste it in `NGROK_TOKEN` in .env
+2. Go to [ngrok.com](https://ngrok.com/) and create an account.
+3. Create a custom domain, every account gets 1 free domain.
+4. Replace `your-domain.ngrok-free.app` with your domain in `ngrok.yml` (no https://)
+5. Replace `https://your-domain.ngrok-free.app` with your domain in `.env` (with https://)
+6. Copy your ngrok token and paste it in `NGROK_TOKEN` in .env
 
 
 ### Running n8n using Docker Compose
