@@ -1,6 +1,6 @@
 # NGORK and Self-hosted AI starter kit
 
-This repo combines the self-hosted n8n ai starter kit with ngrok to so external services can call n8n trigger nodes.
+This repo combines the self-hosted n8n ai starter kit with ngrok, so external services can call n8n trigger nodes.
 
 > [Original n8n starter kit](https://blog.n8n.io/self-hosted-ai/)
 
@@ -29,7 +29,7 @@ cd n8n-local-ai-kit-with-ngrok
 
 ### Update .env and ngrok.yml [**Important**]
 
-1. Copy `.env.sample` to `.env` and update the values
+1. Copy `.env.sample` to `.env` and update the PostgreSQL values.
 2. Go to [ngrok.com](https://ngrok.com/) and create an account.
 3. Create a custom domain, every account gets 1 free domain.
 4. Replace `your-domain.ngrok-free.app` with your domain in `ngrok.yml` (no https://)
